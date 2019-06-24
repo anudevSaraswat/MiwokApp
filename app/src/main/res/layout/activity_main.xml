@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.anudev.miwokapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:text="What do you want to learn in miwok language?"
+        android:textColor="#000"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Numbers"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#f28143"
+        android:id="@+id/numbers" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Family Members"
+        android:textSize="30sp"
+        android:paddingBottom="12dp"
+        android:paddingTop="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#6bf640"
+        android:id="@+id/fam" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Colors"
+        android:textSize="30sp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:textColor="#FFFFFF"
+        android:background="#83456e"
+        android:id="@+id/colors" />
+
+    <Button
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="70dp"
+        android:background="#00c7a4"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:text="Phrases"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+</LinearLayout>
